@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "testing-b6100",
+    "public": "dist/angular-firebase-hosting",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
